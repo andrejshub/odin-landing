@@ -1,0 +1,1 @@
+This is an assignment from The Odin Project to create a generic landing page for the foundations section. 
