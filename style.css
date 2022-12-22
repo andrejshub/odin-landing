@@ -216,6 +216,15 @@ h4 {
 
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+}
+
 
 
 li {
