@@ -61,7 +61,7 @@ body {
     color: #e5e7eb;
 }
 
-button {
+.signup {
     border-radius: 8px;
     border: 0;
     box-shadow: none;
@@ -155,6 +155,65 @@ h3 {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
+}
+
+.last-div {
+    height: 300px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.blue {
+    background-color: #3882f6;
+    width: 75%;
+    height: 60%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 8px;
+}
+
+.left {
+    width: 80%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+h4 {
+    color:#E5E7EB;
+    font-size: 32px;
+    
+}
+
+.lastp {
+    margin-top: -40px;
+    color: white;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lastbutton {
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow: none;
+    background-color:#3882f6;
+    width: 100px;
+    height: 28px;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+
 }
 
 
