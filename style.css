@@ -119,12 +119,31 @@ button {
 .quote {
     background-color: #E5E7EB;
     margin-top: 100px;
-    height: 250px;
+    height: 500px;
     margin-left: -20px;
     margin-right: -20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
+   
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+}
+
+.qp {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 600px;
+}
+
+.p-author {
+    font-size: 18px;
+    text-align: end;
 }
 
 .qtext {
@@ -133,7 +152,12 @@ button {
     align-items: center;
     justify-content: center;
     width: 600px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
 }
+
+
 
 li {
     list-style-type: none;
